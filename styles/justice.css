@@ -60,6 +60,15 @@ color: #FFFFFF;
   .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
   }
+  .column{
+    float: left;
+    width: 25%;
+  }
+  .rows:after{
+ content: "";
+ display: table;
+ clear: both;
+  }
 @media only screen and (max-width:576px) {
     .carousel-caption{
         margin-top: 0;
@@ -68,5 +77,9 @@ color: #FFFFFF;
         bottom: 80px;
         height: 271px;
     }
-    
+    @media only screen and (max-width:576px) {
+        .column{
+            width: 100%;
+        }
+    }
 }
