@@ -1,16 +1,14 @@
-*{
-    
+*{   
 font-family: 'EB Garamond';
 font-size: 18px;
 }
 
+/* button */
 .btn{
     background: #B68C5A;
 color: #FFFFFF;
-
-
 }
-
+/* Banner-Images */
 .banner-img-1{
    background-image: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url("../images/Rectangle\ 4.png");
     width:100%;
@@ -18,6 +16,7 @@ color: #FFFFFF;
    border-radius: 8px;
 
 }
+/* banner-section */
 .fw-bold{
     color: #FFFFFF;
     font-weight: 800;
@@ -36,6 +35,7 @@ color: #FFFFFF;
     border-radius: 8px;
 
 }
+/* The Legal Practice Area */
 .card-text{
     color: #707070;
 
@@ -46,6 +46,7 @@ color: #FFFFFF;
 .img{
     width: 40px;
 }
+/* Carousel part */
 .carousel-caption{
     bottom: 220px;
 }
@@ -60,6 +61,7 @@ color: #FFFFFF;
   .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
   }
+  /* footer */
   .column{
     float: left;
     width: 25%;
@@ -69,6 +71,7 @@ color: #FFFFFF;
  display: table;
  clear: both;
   }
+  /* What Our Client Say media Query */
 @media only screen and (max-width:576px) {
     .carousel-caption{
         margin-top: 0;
@@ -77,6 +80,7 @@ color: #FFFFFF;
         bottom: 80px;
         height: 271px;
     }
+    /* Footer Media Query */
     @media only screen and (max-width:576px) {
         .column{
             width: 100%;
